@@ -23,15 +23,11 @@
         margin: 3rem auto;
         flex-direction: column;
 
-        p {
-            font-family: mfont;
-            font-size: 1.6rem;
-            margin: auto;
-            text-align: center;
-            color: $gray-dark;
-
-
+        @include breakpoint(tablet) {
+            width: 100%;
         }
+
+
 
         .title {
             margin: 3rem 0;
@@ -39,11 +35,6 @@
             align-items: center;
             justify-content: space-around;
 
-            h3 {
-                font-size: 2.4rem;
-                color: $gold;
-                font-family: bfont;
-            }
 
             img {
                 width: 20%;

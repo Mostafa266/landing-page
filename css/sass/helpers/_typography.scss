@@ -1,0 +1,61 @@
+.heading {
+    font-size: 2.4rem;
+    color: var(--gold);
+    font-family: bfont;
+    text-align: center;
+
+    &-xlg {
+        font-size: 3.2rem;
+    }
+
+    &-md {
+        font-size: 1.8rem;
+    }
+
+    &-sm {
+        font-size: 1.6rem;
+    }
+
+}
+
+.paragraph {
+    font-family: mfont;
+    font-size: 1.6rem;
+    margin: auto;
+
+    &-sm {
+        @include breakpoint(smmobile) {
+            font-size: 1.4rem;
+        }
+    }
+
+    &-responsive {
+        text-align: center;
+
+        @include breakpoint(tablet) {
+            text-align: left;
+        }
+    }
+
+    &-dark-grey {
+        color: var(--gray-dark);
+    }
+
+    &-white {
+        color: var(--gray-dark);
+    }
+}
+
+
+.text-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto;
+    flex-direction: column;
+
+    @include breakpoint(tablet) {
+        width: 100%;
+    }
+}

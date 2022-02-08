@@ -2,6 +2,7 @@
 @import './sass/helpers/variables';
 @import './sass/helpers/common';
 @import './sass/helpers/mixins';
+@import './sass/helpers/typography';
 // END import all helpers components
 
 
@@ -15,3 +16,7 @@
 // START import all pages
 @import './sass/pages/home';
 // END import all pages
+
+.responsive {
+    display: none;
+}

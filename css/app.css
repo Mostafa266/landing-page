@@ -47,6 +47,79 @@ html {
   src: url(/fonts/Qanelas-Regular.ttf);
 }
 
+.heading {
+  font-size: 2.4rem;
+  color: var(--gold);
+  font-family: bfont;
+  text-align: center;
+}
+
+.heading-xlg {
+  font-size: 3.2rem;
+}
+
+.heading-md {
+  font-size: 1.8rem;
+}
+
+.heading-sm {
+  font-size: 1.6rem;
+}
+
+.paragraph {
+  font-family: mfont;
+  font-size: 1.6rem;
+  margin: auto;
+}
+
+@media only screen and (max-width: 375px) {
+  .paragraph-sm {
+    font-size: 1.4rem;
+  }
+}
+
+.paragraph-responsive {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .paragraph-responsive {
+    text-align: left;
+  }
+}
+
+.paragraph-dark-grey {
+  color: var(--gray-dark);
+}
+
+.paragraph-white {
+  color: var(--gray-dark);
+}
+
+.text-wrapper {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3rem auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text-wrapper {
+    width: 100%;
+  }
+}
+
 body {
   width: 100%;
   height: auto;
@@ -97,12 +170,10 @@ body {
           flex-direction: column;
 }
 
-.hero .text-wrapper p {
-  font-family: mfont;
-  font-size: 1.6rem;
-  margin: auto;
-  text-align: center;
-  color: var(--gray-dark);
+@media only screen and (max-width: 1024px) {
+  .hero .text-wrapper {
+    width: 100%;
+  }
 }
 
 .hero .text-wrapper .title {
@@ -115,12 +186,6 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-}
-
-.hero .text-wrapper .title h3 {
-  font-size: 2.4rem;
-  color: var(--gold);
-  font-family: bfont;
 }
 
 .hero .text-wrapper .title img {
@@ -150,6 +215,16 @@ nav .navbar .brand {
 
 nav .navbar .brand .logo {
   margin-top: 2rem;
+  background: #fff5e3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 nav .navbar .brand .logo img {
@@ -338,31 +413,10 @@ nav .navbar .menu-btn {
 nav .line {
   height: 0.2rem;
   background: var(--pastel-brown-dark);
-  width: 8%;
+  width: 100%;
   float: left;
   margin-top: -0.7rem;
   opacity: 1;
-}
-
-@media only screen and (max-width: 1024px) {
-  nav .line {
-    width: 4%;
-  }
-}
-
-nav .line2 {
-  float: right;
-  width: 86%;
-  height: 0.2rem;
-  margin-top: -0.7rem;
-  background: var(--pastel-brown-dark);
-  opacity: 1;
-}
-
-@media only screen and (max-width: 1024px) {
-  nav .line2 {
-    width: 83%;
-  }
 }
 
 nav .menu-mobile {
@@ -376,35 +430,7 @@ nav .menu-mobile {
   display: none;
 }
 
-.hero {
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 5rem;
-}
-
-.hero .img-wrapper img {
-  width: 100%;
-}
-
-.hero .text-wrapper {
-  text-align: center;
-}
-
-.hero .text-wrapper p {
-  font-family: mfont;
-  font-size: 1.8rem;
+.responsive {
+  display: none;
 }
 /*# sourceMappingURL=app.css.map */
