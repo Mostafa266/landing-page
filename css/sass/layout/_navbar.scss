@@ -19,12 +19,16 @@ nav {
                 align-items: center;
                 justify-content: center;
 
+                @include breakpoint(tablet) {
+                    margin-top: 0;
+
+                }
+
                 img {
                     width: 70%;
 
                     @include breakpoint(tablet) {
                         width: 30%;
-                        margin-left: 1rem;
 
                     }
                 }
