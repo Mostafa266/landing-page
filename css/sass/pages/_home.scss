@@ -6,10 +6,30 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 8rem 0;
+    position: relative;
 
     @include breakpoint(tablet) {
         min-height: 100%;
-        padding: 2rem 1rem;
+        padding: 4rem 1rem;
+    }
+
+    #triangle {
+        background-color: $white-2;
+        clip-path: polygon(0 0, 50% 100%, 100% 0);
+        width: 190px;
+        height: 80px;
+        position: absolute;
+        top: 0;
+        left: 45%;
+        margin: auto;
+
+        @include breakpoint(tablet) {
+            width: 120px;
+            height: 60px;
+            position: absolute;
+            top: 0;
+            left: 40%;
+        }
     }
 
     .img-wrapper {
