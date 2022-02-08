@@ -50,7 +50,7 @@
     color: var(--gold);
     font-size: 10rem;
     font-family: bfont;
-
+    margin: 0;
 
     @include breakpoint(tablet) {
         font-size: 7rem;
@@ -60,7 +60,7 @@
 .red {
     color: var(--red-dark);
     font-family: xbfont;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 
 }
 

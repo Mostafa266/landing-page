@@ -102,6 +102,7 @@ html {
   color: var(--gold);
   font-size: 10rem;
   font-family: bfont;
+  margin: 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -113,7 +114,7 @@ html {
 .red {
   color: var(--red-dark);
   font-family: xbfont;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .text-wrapper {
@@ -522,6 +523,7 @@ nav .menu-mobile {
   font-size: 10rem;
   font-family: bfont;
   color: var(--white-3);
+  margin: 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -530,9 +532,10 @@ nav .menu-mobile {
   }
 }
 
-.story .txt-wrapper p {
+.story .txt-wrapper .content p {
   color: var(--white);
   font-family: mfont;
   font-size: 1.4rem;
+  margin: 2.5rem 0;
 }
 /*# sourceMappingURL=app.css.map */

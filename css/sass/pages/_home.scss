@@ -40,19 +40,24 @@
             font-size: 10rem;
             font-family: bfont;
             color: $white-3;
+            margin: 0;
 
             @include breakpoint(tablet) {
                 font-size: 7rem;
             }
         }
 
-        p {
-            color: $white;
-            font-family: mfont;
-            font-size: 1.4rem;
+        .content {
 
+            p {
+                color: $white;
+                font-family: mfont;
+                font-size: 1.4rem;
+                margin: 2.5rem 0;
+            }
 
         }
+
 
     }
 }
