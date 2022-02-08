@@ -159,6 +159,7 @@ nav .navbar .brand .logo img {
 @media only screen and (max-width: 1024px) {
   nav .navbar .brand .logo img {
     width: 50%;
+    margin-left: 1rem;
   }
 }
 
@@ -360,7 +361,7 @@ nav .line2 {
 
 @media only screen and (max-width: 1024px) {
   nav .line2 {
-    width: 82%;
+    width: 84%;
   }
 }
 
