@@ -104,7 +104,7 @@ html {
   font-family: bfont;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .gold {
     font-size: 7rem;
   }
@@ -116,7 +116,7 @@ html {
   font-size: 1.4rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .red {
     font-size: 1.2rem;
   }
