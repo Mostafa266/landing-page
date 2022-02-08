@@ -3,6 +3,8 @@
   --white-2: #fff5e3;
   --pastel-brown-light: #7b6659;
   --pastel-brown-dark: #7d5407;
+  --gray-dark: #515151;
+  --gold: #e3a430;
 }
 
 * {
@@ -52,6 +54,77 @@ body {
   padding: 0;
   margin: 0;
   background: var(--white-2);
+}
+
+.hero {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5rem;
+}
+
+.hero .img-wrapper img {
+  width: 100%;
+}
+
+.hero .text-wrapper {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3rem auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .text-wrapper p {
+  font-family: mfont;
+  font-size: 1.6rem;
+  margin: auto;
+  text-align: center;
+  color: var(--gray-dark);
+}
+
+.hero .text-wrapper .title {
+  margin: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.hero .text-wrapper .title h3 {
+  font-size: 2.4rem;
+  color: var(--gold);
+  font-family: bfont;
+}
+
+.hero .text-wrapper .title img {
+  width: 20%;
 }
 
 nav .navbar {
@@ -160,7 +233,7 @@ nav .navbar .social-links .icon i {
 }
 
 nav .line {
-  height: 2px;
+  height: 0.2rem;
   background: var(--pastel-brown-dark);
   width: 9%;
   float: left;
@@ -171,7 +244,7 @@ nav .line {
 nav .line2 {
   float: right;
   width: 86%;
-  height: 2px;
+  height: 0.2rem;
   margin-top: -0.7rem;
   background: var(--pastel-brown-dark);
   opacity: 1;
@@ -187,9 +260,9 @@ nav .line2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -198,5 +271,14 @@ nav .line2 {
 
 .hero .img-wrapper img {
   width: 100%;
+}
+
+.hero .text-wrapper {
+  text-align: center;
+}
+
+.hero .text-wrapper p {
+  font-family: mfont;
+  font-size: 1.8rem;
 }
 /*# sourceMappingURL=app.css.map */
