@@ -507,7 +507,7 @@ nav .menu-mobile {
     width: 10rem;
     height: 5rem;
     position: absolute;
-    top: 0;
+    top: -0.2rem;
     left: 40%;
   }
 }
