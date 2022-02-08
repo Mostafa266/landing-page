@@ -1,0 +1,17 @@
+// START import all helpers components
+@import './sass/helpers/variables';
+@import './sass/helpers/common';
+@import './sass/helpers/mixins';
+// END import all helpers components
+
+
+// START import all layout components
+@import './sass/layout/body';
+@import './sass/layout/header';
+@import './sass/layout/navbar';
+// END import all layout components
+
+
+// START import all pages
+@import './sass/pages/home';
+// END import all pages

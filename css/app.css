@@ -1,0 +1,180 @@
+:root {
+  --white: #ffffff;
+  --white-2: #fff5e3;
+  --pastel-brown-light: #7b6659;
+  --pastel-brown-dark: #7d5407;
+}
+
+* {
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: bfont;
+  src: url(/fonts/Qanelas-Bold.ttf);
+}
+
+@font-face {
+  font-family: blfont;
+  src: url(/fonts/Qanelas-Black.ttf);
+}
+
+@font-face {
+  font-family: xbfont;
+  src: url(/fonts/Qanelas-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: lfont;
+  src: url(/fonts/Qanelas-Light.ttf);
+}
+
+@font-face {
+  font-family: mfont;
+  src: url(/fonts/Qanelas-Medium.ttf);
+}
+
+@font-face {
+  font-family: rfont;
+  src: url(/fonts/Qanelas-Regular.ttf);
+}
+
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  background: var(--white-2);
+}
+
+nav .navbar {
+  width: 100%;
+  height: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .navbar .brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 55%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+nav .navbar .brand .logo {
+  margin-top: 2rem;
+}
+
+nav .navbar .brand .logo img {
+  width: 70%;
+}
+
+nav .navbar .brand .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .navbar .brand .nav-links ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+nav .navbar .brand .nav-links ul li {
+  padding: 1rem;
+}
+
+nav .navbar .brand .nav-links ul li a {
+  text-decoration: none;
+  color: var(--pastel-brown-light);
+  font-family: bfont;
+  font-size: 1.4rem;
+}
+
+nav .navbar .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .navbar .social-links .bt-sign {
+  padding: 0.4rem 2.3rem;
+  border-radius: 2.3rem;
+  color: var(--pastel-brown-dark);
+  border: 0.3rem solid var(--pastel-brown-dark);
+  font-family: bfont;
+  font-size: 1.4rem;
+  margin: auto;
+  margin-left: 1rem;
+}
+
+nav .navbar .social-links .icon {
+  border: 0.3rem solid var(--pastel-brown-dark);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 0.2rem;
+}
+
+nav .navbar .social-links .icon i {
+  color: var(--pastel-brown-dark);
+  font-size: 1.6rem;
+  margin: auto;
+}
+
+nav .line {
+  height: 2px;
+  background: var(--pastel-brown-dark);
+  width: 9%;
+  float: left;
+  margin-top: -0.7rem;
+  opacity: 1;
+}
+
+nav .line2 {
+  float: right;
+  width: 86%;
+  height: 2px;
+  margin-top: -0.7rem;
+  background: var(--pastel-brown-dark);
+  opacity: 1;
+}
+/*# sourceMappingURL=app.css.map */

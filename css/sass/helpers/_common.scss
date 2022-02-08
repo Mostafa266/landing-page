@@ -1,0 +1,38 @@
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: bfont;
+    src: url(/fonts/Qanelas-Bold.ttf);
+}
+
+@font-face {
+    font-family: blfont;
+    src: url(/fonts/Qanelas-Black.ttf);
+}
+
+@font-face {
+    font-family: xbfont;
+    src: url(/fonts/Qanelas-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: lfont;
+    src: url(/fonts/Qanelas-Light.ttf);
+}
+
+@font-face {
+    font-family: mfont;
+    src: url(/fonts/Qanelas-Medium.ttf);
+}
+
+@font-face {
+    font-family: rfont;
+    src: url(/fonts/Qanelas-Regular.ttf);
+}
