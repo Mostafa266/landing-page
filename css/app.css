@@ -251,6 +251,9 @@ nav .navbar .menu-btn {
 @media only screen and (max-width: 1024px) {
   nav .navbar .menu-btn {
     display: block;
+    z-index: 99999;
+    -webkit-box-shadow: 0 0.3rem 0.7rem 0 var(--white-2);
+            box-shadow: 0 0.3rem 0.7rem 0 var(--white-2);
   }
   nav .navbar .menu-btn .toggle {
     cursor: pointer;
@@ -325,22 +328,6 @@ nav .navbar .menu-btn {
   }
 }
 
-nav .navbar .menu-mobile {
-  display: none;
-}
-
-@media only screen and (max-width: 1024px) {
-  nav .navbar .menu-mobile.open {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    z-index: 999;
-    width: 100%;
-    height: 100vh;
-    background: var(--pastel-brown-dark);
-  }
-}
-
 nav .line {
   height: 0.2rem;
   background: var(--pastel-brown-dark);
@@ -369,6 +356,17 @@ nav .line2 {
   nav .line2 {
     width: 82%;
   }
+}
+
+nav .menu-mobile {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: var(--pastel-brown-light);
+  display: none;
 }
 
 .hero {

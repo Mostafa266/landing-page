@@ -91,6 +91,8 @@ nav {
 
             @include breakpoint(tablet) {
                 display: block;
+                z-index: 99999;
+                box-shadow: 0 0.3rem 0.7rem 0 $white-2;
 
                 .toggle {
                     cursor: pointer;
@@ -155,19 +157,7 @@ nav {
             }
         }
 
-        .menu-mobile {
-            display: none;
 
-            &.open {
-                @include breakpoint(tablet) {
-                    display: flex;
-                    z-index: 999;
-                    width: 100%;
-                    height: 100vh;
-                    background: $pastel-brown-dark;
-                }
-            }
-        }
     }
 
     .line {
@@ -197,4 +187,15 @@ nav {
 
     }
 
+    .menu-mobile {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        background: $pastel-brown-light;
+        display: none;
+
+    }
 }
