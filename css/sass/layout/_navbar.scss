@@ -23,8 +23,8 @@ nav {
                     width: 70%;
 
                     @include breakpoint(tablet) {
-                        width: 40%;
-                        margin-left: 1rem;
+                        width: 35%;
+                        //  margin-left: 1rem;
 
                     }
                 }
