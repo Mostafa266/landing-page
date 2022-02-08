@@ -16,16 +16,28 @@
     #triangle {
         background-color: $white-2;
         clip-path: polygon(0 0, 50% 100%, 100% 0);
-        width: 190px;
-        height: 80px;
+        width: 19rem;
+        height: 8rem;
         position: absolute;
         top: 0;
         left: 45%;
         margin: auto;
+        display: flex;
+
+        a {
+            margin: auto;
+
+            i {
+
+                color: #ccc;
+                font-size: 2rem;
+
+            }
+        }
 
         @include breakpoint(tablet) {
-            width: 120px;
-            height: 60px;
+            width: 10rem;
+            height: 5rem;
             position: absolute;
             top: 0;
             left: 40%;
