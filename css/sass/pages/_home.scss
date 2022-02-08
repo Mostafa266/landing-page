@@ -19,7 +19,8 @@
         align-items: flex-end;
 
         @include breakpoint(tablet) {
-            height: auto;
+            height: 100%;
+            align-items: center;
         }
 
         img {
