@@ -116,12 +116,6 @@ html {
   font-size: 1.4rem;
 }
 
-@media only screen and (max-width: 1024px) {
-  .red {
-    font-size: 1.2rem;
-  }
-}
-
 .text-wrapper {
   width: 80%;
   display: -webkit-box;
@@ -540,11 +534,5 @@ nav .menu-mobile {
   color: var(--white);
   font-family: mfont;
   font-size: 1.4rem;
-}
-
-@media only screen and (max-width: 1024px) {
-  .story .txt-wrapper p {
-    font-size: 1.2rem;
-  }
 }
 /*# sourceMappingURL=app.css.map */

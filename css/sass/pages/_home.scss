@@ -51,9 +51,7 @@
             font-family: mfont;
             font-size: 1.4rem;
 
-            @include breakpoint(tablet) {
-                font-size: 1.2rem;
-            }
+
         }
 
     }
