@@ -63,16 +63,3 @@
     font-size: 1.6rem;
 
 }
-
-.text-wrapper {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 3rem auto;
-    flex-direction: column;
-
-    @include breakpoint(tablet) {
-        width: 100%;
-    }
-}
