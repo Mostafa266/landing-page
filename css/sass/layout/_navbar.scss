@@ -21,7 +21,6 @@ nav {
 
                 @include breakpoint(tablet) {
                     margin-top: 0;
-
                 }
 
                 img {
@@ -29,7 +28,6 @@ nav {
 
                     @include breakpoint(tablet) {
                         width: 40%;
-
                     }
                 }
             }
@@ -84,6 +82,7 @@ nav {
                 font-size: 1.4rem;
                 margin: auto;
                 margin-left: 1rem;
+                cursor: pointer;
             }
 
             .icon {
@@ -93,6 +92,7 @@ nav {
                 height: 4rem;
                 display: flex;
                 margin: 0 0.2rem;
+                cursor: pointer;
 
                 i {
                     color: $pastel-brown-dark;
