@@ -46,6 +46,25 @@
     }
 }
 
+.gold {
+    color: var(--gold);
+    font-size: 10rem;
+    font-family: bfont;
+
+    @include breakpoint(lgmobile) {
+        font-size: 7rem;
+    }
+}
+
+.red {
+    color: var(--red-dark);
+    font-family: xbfont;
+    font-size: 1.4rem;
+
+    @include breakpoint(lgmobile) {
+        font-size: 1.2rem;
+    }
+}
 
 .text-wrapper {
     width: 80%;

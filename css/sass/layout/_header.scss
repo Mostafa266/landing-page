@@ -7,6 +7,10 @@
     align-items: center;
     margin-top: 5rem;
 
+    @include breakpoint(lgmobile) {
+        padding: 0 1rem;
+    }
+
     .img-wrapper {
         img {
             width: 100%;

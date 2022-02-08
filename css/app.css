@@ -1,10 +1,12 @@
 :root {
   --white: #ffffff;
   --white-2: #fff5e3;
+  --white-3: #fefefe;
   --pastel-brown-light: #7b6659;
   --pastel-brown-dark: #7d5407;
   --gray-dark: #515151;
   --gold: #e3a430;
+  --red-dark: #bd131b;
 }
 
 * {
@@ -96,6 +98,30 @@ html {
   color: var(--gray-dark);
 }
 
+.gold {
+  color: var(--gold);
+  font-size: 10rem;
+  font-family: bfont;
+}
+
+@media only screen and (max-width: 768px) {
+  .gold {
+    font-size: 7rem;
+  }
+}
+
+.red {
+  color: var(--red-dark);
+  font-family: xbfont;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .red {
+    font-size: 1.2rem;
+  }
+}
+
 .text-wrapper {
   width: 80%;
   display: -webkit-box;
@@ -146,6 +172,12 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    padding: 0 1rem;
+  }
 }
 
 .hero .img-wrapper img {
@@ -440,19 +472,76 @@ nav .menu-mobile {
   background-image: url("/imgs/story.png");
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 8rem 0;
 }
 
-.story .story-data {
-  width: 100%;
-  height: 100%;
+@media only screen and (max-width: 768px) {
+  .story {
+    min-height: 100%;
+    padding: 2rem 1rem;
+  }
+}
+
+.story .img-wrapper {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .story .img-wrapper {
+    height: auto;
+  }
+}
+
+.story .img-wrapper img {
+  width: 65%;
+}
+
+.story .txt-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.story .txt-wrapper h1 {
+  font-size: 10rem;
+  font-family: bfont;
+  color: var(--white-3);
+}
+
+@media only screen and (max-width: 768px) {
+  .story .txt-wrapper h1 {
+    font-size: 7rem;
+  }
+}
+
+.story .txt-wrapper p {
+  color: var(--white);
+  font-family: mfont;
+  font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .story .txt-wrapper p {
+    font-size: 1.2rem;
+  }
 }
 /*# sourceMappingURL=app.css.map */
