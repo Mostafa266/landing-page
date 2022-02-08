@@ -475,7 +475,7 @@ nav .menu-mobile {
   padding: 8rem 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .story {
     min-height: 100%;
     padding: 2rem 1rem;
@@ -495,7 +495,7 @@ nav .menu-mobile {
           align-items: flex-end;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .story .img-wrapper {
     height: auto;
   }
@@ -527,7 +527,7 @@ nav .menu-mobile {
   color: var(--white-3);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .story .txt-wrapper h1 {
     font-size: 7rem;
   }
@@ -539,7 +539,7 @@ nav .menu-mobile {
   font-size: 1.4rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .story .txt-wrapper p {
     font-size: 1.2rem;
   }
