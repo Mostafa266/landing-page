@@ -111,8 +111,8 @@
     margin-top: 10rem;
 
     @include breakpoint(tablet) {
-        min-height: 100vh;
-        height: auto;
+        min-height: auto;
+        // height: auto;
         margin: 0;
         text-align: left;
         width: 100%;

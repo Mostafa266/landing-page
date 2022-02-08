@@ -571,8 +571,7 @@ nav .menu-mobile {
 
 @media only screen and (max-width: 1024px) {
   .road-map {
-    min-height: 100vh;
-    height: auto;
+    min-height: auto;
     margin: 0;
     text-align: left;
     width: 100%;
