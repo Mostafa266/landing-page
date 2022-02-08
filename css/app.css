@@ -334,8 +334,6 @@ nav .navbar .menu-btn {
   nav .navbar .menu-btn {
     display: block;
     z-index: 99999;
-    -webkit-box-shadow: 0 0.3rem 0.7rem 0 var(--white-2);
-            box-shadow: 0 0.3rem 0.7rem 0 var(--white-2);
   }
   nav .navbar .menu-btn .toggle {
     cursor: pointer;
@@ -343,8 +341,6 @@ nav .navbar .menu-btn {
     width: 4rem;
     height: 4rem;
     border-radius: 1rem;
-    -webkit-box-shadow: 0 0.3rem 0.7rem 0 var(--pastel-brown-dark);
-            box-shadow: 0 0.3rem 0.7rem 0 var(--pastel-brown-dark);
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;

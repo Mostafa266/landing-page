@@ -101,7 +101,7 @@ nav {
             @include breakpoint(tablet) {
                 display: block;
                 z-index: 99999;
-                box-shadow: 0 0.3rem 0.7rem 0 $white-2;
+                //  box-shadow: 0 0.3rem 0.7rem 0 $white-2;
 
                 .toggle {
                     cursor: pointer;
@@ -109,7 +109,7 @@ nav {
                     width: 4rem;
                     height: 4rem;
                     border-radius: 1rem;
-                    box-shadow: 0 0.3rem 0.7rem 0 $pastel-brown-dark;
+                    //  box-shadow: 0 0.3rem 0.7rem 0 $pastel-brown-dark;
                     position: relative;
                     display: flex;
                     align-items: center;
