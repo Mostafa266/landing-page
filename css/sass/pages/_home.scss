@@ -217,6 +217,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+
+    .bg {
+
+        position: absolute;
+        top: -150px;
+        right: -80px;
+
+        @include breakpoint(tablet) {
+            display: none;
+        }
+    }
+
 
     .data-wrapper {
         text-align: center;
