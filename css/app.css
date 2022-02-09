@@ -121,6 +121,12 @@ html {
   font-size: 1.6rem;
 }
 
+.red-2 {
+  color: var(--red-dark);
+  font-family: xbfont;
+  font-size: 6rem;
+}
+
 body {
   width: 100%;
   height: auto;
@@ -683,7 +689,7 @@ nav .menu-mobile {
 .next {
   background: var(--dark-gold);
   width: 100%;
-  height: 400px;
+  height: 40rem;
   position: relative;
   top: -3.5rem;
   display: -webkit-box;
@@ -699,5 +705,41 @@ nav .menu-mobile {
 
 .next .data-wrapper {
   text-align: center;
+}
+
+.next .data-wrapper h2 {
+  color: var(--brown-light);
+  font-size: 6rem;
+  font-family: xbfont;
+}
+
+.next .data-wrapper img {
+  margin-bottom: 2rem;
+}
+
+.next .data-wrapper p {
+  color: var(--brown-light);
+  font-family: mfont;
+  font-size: 1.6rem;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .next .data-wrapper p {
+    width: 100%;
+  }
+}
+
+.next .data-wrapper button {
+  margin-top: 2rem;
+  border: none;
+  background: var(--red-dark);
+  padding: 1rem 3rem;
+  border-radius: 2.3rem;
+  color: var(--white-2);
+  font-family: bfont;
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=app.css.map */

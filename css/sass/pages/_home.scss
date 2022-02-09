@@ -211,7 +211,7 @@
 .next {
     background: $dark-gold;
     width: 100%;
-    height: 400px;
+    height: 40rem;
     position: relative;
     top: -3.5rem;
     display: flex;
@@ -221,5 +221,39 @@
     .data-wrapper {
         text-align: center;
 
+        h2 {
+            color: $brown-light;
+            font-size: 6rem;
+            font-family: xbfont;
+        }
+
+        img {
+            margin-bottom: 2rem;
+        }
+
+        p {
+            color: $brown-light;
+            font-family: mfont;
+            font-size: 1.6rem;
+            width: 50%;
+
+            text-align: center;
+            margin: auto;
+
+            @include breakpoint(tablet) {
+                width: 100%;
+            }
+        }
+
+        button {
+            margin-top: 2rem;
+            border: none;
+            background: $red-dark;
+            padding: 1rem 3rem;
+            border-radius: 2.3rem;
+            color: $white-2;
+            font-family: bfont;
+            font-size: 1.6rem;
+        }
     }
 }
