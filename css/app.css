@@ -686,6 +686,15 @@ nav .menu-mobile {
   height: 400px;
   position: relative;
   top: -3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .next .data-wrapper {
