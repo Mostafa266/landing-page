@@ -590,7 +590,7 @@ nav .menu-mobile {
 
 .road-map img {
   position: absolute;
-  bottom: -1.5rem;
+  bottom: 0rem;
   left: 50%;
   height: 100%;
 }
@@ -685,7 +685,7 @@ nav .menu-mobile {
   width: 100%;
   height: 400px;
   position: relative;
-  top: -1.5rem;
+  top: -3.5rem;
 }
 
 .next .data-wrapper {
