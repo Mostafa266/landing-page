@@ -9,6 +9,7 @@
   --red-dark: #bd131b;
   --brown: #320307;
   --brown-light: #482f00;
+  --dark-gold: #feb229;
 }
 
 * {
@@ -589,7 +590,7 @@ nav .menu-mobile {
 
 .road-map img {
   position: absolute;
-  bottom: 0;
+  bottom: -1rem;
   left: 50%;
   height: 100%;
 }
@@ -677,5 +678,17 @@ nav .menu-mobile {
   .road-map .mt-3 p {
     text-align: left;
   }
+}
+
+.next {
+  background: var(--dark-gold);
+  width: 100%;
+  height: 400px;
+  position: relative;
+  top: -1.5rem;
+}
+
+.next .data-wrapper {
+  text-align: center;
 }
 /*# sourceMappingURL=app.css.map */
