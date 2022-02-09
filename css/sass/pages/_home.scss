@@ -108,6 +108,7 @@
     height: 100vh;
     position: relative;
     margin-top: 10rem;
+    display: flex;
 
     @include breakpoint(tablet) {
         min-height: auto;
